@@ -1,0 +1,38 @@
+application {
+  config {
+    applicationType monolith
+    authenticationType jwt
+    baseName javamysql
+    clientFramework react
+    clientPackageManager npm
+    creationTimestamp 1707362220703
+    databaseType sql
+    devDatabaseType mysql
+    jhiPrefix jhi
+    languages [en]
+    messageBroker false
+    microfrontend false
+    microfrontends []
+    nativeLanguage en
+    packageName my.codebridge.community.javamysql
+    prodDatabaseType mysql
+    reactive true
+    searchEngine false
+    serverPort 8080
+    serviceDiscoveryType eureka
+    skipClient false
+    skipUserManagement false
+    testFrameworks []
+    websocket false
+    withAdminUi true
+  }
+
+  
+}
+
+
+
+paginate * with pagination
+service * with serviceImpl
+dto * with mapstruct
+
